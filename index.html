@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tao form 2</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="container">
+    <form action="/action_page.php" style="border-style: solid;border-width: 12px; border-color: cadetblue;">
+        <h1 style="background-color: orangered; color: white; text-align: center;">SỞ THÍCH CỦA BẠN</h1>
+        <div class="row">
+            <div class="col-sm-2">
+                <div style="color: blue; text-align: right;">Họ và tên </div>
+            </div>
+            <div class="col-sm-9">
+                <input type="text" name="yourname" size="35">
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col-sm-2">
+                <div style="color: blue; text-align: right;">Email </div>
+            </div>
+            <div class="col-sm-9">
+                <input type="email" name="Email" size="25">
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col-sm-2">
+                <div style="color: blue; text-align: right;">Sở thích </div>
+            </div>
+            <div class="col-sm-9">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <p><input type="checkbox" name="Hobby" id="thethao"> Thể Thao</p>
+                        <p><input type="checkbox" name="Hobby" id="luotweb"> Lướt Web</p>
+                        <p><input type="checkbox" name="Hobby" id="dulich"> Du lịch</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <p><input type="checkbox" name="Hobby" id="amnhac"> Âm nhạc</p>
+                        <p><input type="checkbox" name="Hobby" id="choigame"> Chơi game</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <p><input type="checkbox" name="Hobby" id="docsach"> Đọc sách</p>
+                        <p><input type="checkbox" name="Hobby" id="dienanh"> Điện ảnh</p>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-9">
+                <button>Gửi Thông tin</button>
+                <button>Nhập lại</button>
+            </div>
+        </div><br>
+    </form>
+</body>
+</html>
